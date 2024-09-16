@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dc7b3c;
+
+}
+
+.container{
+    background-color: #ffffff;
+    border-radius:50px;
+
+}
+
+.head{
+    padding: 30px;
+    border: 2px solid #dc7b3c;
+}
+
+.entry{
+    text-align: center;
+    margin: 20px;
+}
+
+.entry input{
+    height: 60px;
+    width: 300px;
+    border-radius:20px;
+    margin-right:20px;
+    margin-bottom: 50x;
+    border: 4px solid #fa6400;
+}
+
+#btn{
+    align-items: center;
+    background-clip:padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    text-decoration: none;
+    padding: relative;
+    transition: all 250ms;
+    user-select: none;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    
+}
